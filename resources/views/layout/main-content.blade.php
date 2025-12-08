@@ -4,7 +4,7 @@
 
 <div class="@container py-8 sm:py-12 md:py-16 lg:py-24">
     <div class="flex flex-col gap-8 sm:gap-10 md:gap-12 px-4 @[864px]:flex-row @[864px]:items-center">
-        <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl @[864px]:w-2/5 max-w-[400px] mx-auto @[864px]:max-w-none @[864px]:mx-0" data-alt="A professional portrait photo of John Doe, a software engineer and writer." style='background-image: url("{{ asset('storage/logo.jpg') }}");'></div>
+        <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl @[864px]:w-2/5 max-w-[400px] mx-auto @[864px]:max-w-none @[864px]:mx-0" data-alt="A professional portrait photo of John Doe, a software engineer and writer." style='background-image: url("{{ asset('logo.jpg') }}");'></div>
         <div class="flex flex-col gap-4 sm:gap-5 md:gap-6 @[864px]:w-3/5 @[864px]:justify-center">
             <div class="flex flex-col gap-2 text-left">
                 <h1 class="text-gray-900 dark:text-white text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tighter">
